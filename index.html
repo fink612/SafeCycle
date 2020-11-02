@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SafeCycle</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>SafeCycle</h1>
+    <p>this app helps users find bicycle hazards and incidents in their area</p>
+    <div>
+        <fieldset>
+            <form id="search">
+                <label for="searchBar">Enter search term here (i.e. pothole, blocked lane)</label>
+            <input type="text" id="searchBar"><br>
+            <label for="location">Enter location here</label>
+            <input type="text" id="location">
+            <input type="submit" class="button">
+            
+            </form>
+        </fieldset>
+    </div>
+    <div id="results"></div>
+</body>
+<script src="https://code.jquery.com/jquery-3.5.1.js"
+integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+crossorigin="anonymous"></script>
+<script src="index.js"></script>
+</html>

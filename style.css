@@ -1,0 +1,12 @@
+* {
+    background-color: rgb(146, 233, 233);
+}
+
+
+
+#results * {
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+}
